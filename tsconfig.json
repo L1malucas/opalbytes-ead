@@ -11,6 +11,29 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
+    "paths": {
+      "@opalbytes/shared/data-access": [
+        "./dist/shared-data-access"
+      ],
+      "@opalbytes/shared/models": [
+        "./dist/shared-models"
+      ],
+      "@opalbytes/shared/ui": [
+        "./dist/shared-ui"
+      ],
+      "@opalbytes/shared/utils": [
+        "./dist/shared-utils"
+      ],
+      "@opalbytes/feature-video-player": [
+        "./dist/feature-video-player"
+      ],
+      "@opalbytes/feature-biometria": [
+        "./dist/feature-biometria"
+      ],
+      "@opalbytes/feature-relatorios": [
+        "./dist/feature-relatorios"
+      ]
+    },
     "importHelpers": true,
     "target": "ES2022",
     "module": "preserve"
@@ -21,5 +44,67 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/portal-publico/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/portal-publico/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/aluno-pwa/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/aluno-pwa/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/admin-dashboard/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/admin-dashboard/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-data-access/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-data-access/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-models/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-models/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-ui/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-ui/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/shared-utils/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/shared-utils/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/feature-video-player/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/feature-video-player/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/feature-biometria/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/feature-biometria/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/feature-relatorios/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/feature-relatorios/tsconfig.spec.json"
+    }
+  ]
 }
